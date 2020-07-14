@@ -4,7 +4,23 @@ body{
 }
 
 #logo{
-    height: 100px;
+    height: 40px;
+    display: block;
+    margin: 20px auto 10px;
+    padding: 10px;
+    opacity: 0.7;
+}
+.logos-row{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: #8d9096;
+    font-weight: 200;
+}
+.small-image{
+    height: 25px;
+    position: relative;
+    top: 6px;
 }
 
 #nav{
@@ -182,3 +198,40 @@ a{
     
     padding-top:20px;
 }
+
+#footer{
+    color: #505050;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+#footer-nav{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0px;
+    
+    
+}
+
+#footer-nav > li{
+    display: inline-block;
+    padding: 10px 30px 0px 30px;
+    
+}
+
+#footer-nav >li >a{
+    color: #505050;
+    
+}
+
+#footer-nav > li > a:hover{
+    text-decoration: underline;
+}
+
+#footer-info{
+
+    text-align: center;
+    margin: 0px auto;
+    width: 50%;
+}
+
