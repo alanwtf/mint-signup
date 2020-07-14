@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intuit Accounts - Sign Up</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav id="nav">
+        <div class="nav-container">
+            <div class="nav-col-1">
+                Already have an Intuit account?
+                <a href="#"> I forgot my User ID or Password </a>
+            </div>
+            <button id="signup-button">
+                <i class="material-icons">https</i>
+                <span class="sign-txt">Sign in</span> 
+            </button>
+        </div>
+    </nav>
+    <img id="logo" src="style/intuit-logo.png" alt="Intuit Logo">
+    <div id="container">
+        <div class="box-form">
+            <h1 id="form-title">Create an Intuit account</h1>
+            <h2 class="form-info">One account for everythinh Intuit, including Mint.</h2>
+            <a href="#" class="learn">Learn more</a>
+            <!--<h2 class="form-info info-low">Already have an account?   <a href="#" class="sign-in-link">Sign In</a></h2>-->
+            <form id="form"action="">
+                <label for="email">Email address</label>
+                <input type="text" name="email">
+                <label for="phone">Phone (recommended)</label>
+                <input type="text">
+                <span>Standard call, messaging or data rates may apply.</span>
+                <label for="password">Password</label>
+                <input type="password">
+                <div class="center-horizontal">
+                    <button id="create-acct-btn">
+                        <i class="material-icons">https</i>
+                        <span class="sign-txt">Create Account</span>
+                    </button>
+                </div>
+                <div class="form-terms">
+                    By clicking Create account, you agree to our
+                    <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.
+                </div>
+                <div class="captcha-footer">
+                    <span class="captcha-text">Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms of Use</a>.</span>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
